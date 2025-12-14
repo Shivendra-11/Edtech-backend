@@ -24,9 +24,10 @@ database.connect();
 
 // ================== CORS CONFIG ==================
 const allowedOrigins = [
+	"https://edtech-frontend.vercel.app",
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://edtech-frontend.vercel.app"
+  ""
 ];
 
 app.use(
